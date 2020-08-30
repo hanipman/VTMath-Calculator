@@ -1,4 +1,4 @@
-# VTMath-Multithreaded-Calculator
+# VTMath-Calculator
 
 This project was done as an assignment for Virginia Tech ECE 3574 Applied Software Design. In order to avoid violating the honor code in case this assignment is reused, the full project will not be uploaded.
 
