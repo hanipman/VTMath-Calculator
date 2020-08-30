@@ -6,6 +6,8 @@ VTMath is a calculator program that uses an interpreter called vtcalc to evaluat
 
 ![Image of UML](https://github.com/hanipman/VTMath-Calculator/blob/master/pics/UML.PNG)
 
+![](https://github.com/hanipman/VTMath-Calculator/blob/master/pics/still.png)
+
 Command | Operation
 --------|----------
 +|Pop the top 2 elements from the stack, add them, and push the result onto the stack-Pop the top 2 elements from the stack, subtract them in the same way as dc, and push the result onto the stack
