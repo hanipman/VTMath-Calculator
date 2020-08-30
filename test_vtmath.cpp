@@ -85,7 +85,7 @@ TEST_CASE( "Test assignment operators", "[VTmath]" ) {
   REQUIRE(m == n);
 }
 
-/*TEST_CASE ( "Test greater than operator", "[VTmath]") {
+TEST_CASE ( "Test greater than operator", "[VTmath]") {
   std::cout << "Testing greater than\n";
 
   VTmath m, n;
@@ -216,7 +216,7 @@ TEST_CASE( "Test assignment operators", "[VTmath]" ) {
   REQUIRE(m == "-352672372231251361362612");
   REQUIRE(n == "-13623624724727362372472347234135");
   REQUIRE(r);
-}*/
+}
 
 std::string grabOutput(VTmath &m) {
   std::stringstream buffer;
