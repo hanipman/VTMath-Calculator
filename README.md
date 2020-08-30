@@ -4,6 +4,10 @@ This project was done as an assignment for Virginia Tech ECE 3574 Applied Softwa
 
 VTMath is a calculator program that uses an interpreter called vtcalc to evaluate arithmetic expressions that are provided in postfix form. This means that the operators always appear after the operands (ie. 3 4 * would evaluate to 12). VTMath can be used either through terminal using vtmath or the GUI version called vtqulator. In vtqulator mode, the calculator can evaluate arbitrarily large values that do not fit in the traditional 64 bit int. Each term of an expression is stored in a stack and evaluated from the top following an operator. Inputs can also be entered using the keyboard. Uses Qt framework for the GUI and Catch for unit testing.
 
+TODO:
+- VTMath mode when checked is supposed to start a thread that uses the VTMath module to evaluate the expression instead of the Interpreter module. All inputs and outputs should be safely passed between the GUI thread and the VTMath thread.
+- Fix division and exponent arithmetic.
+
 ![Image of UML](https://github.com/hanipman/VTMath-Calculator/blob/master/pics/UML.PNG)
 
 ![](https://github.com/hanipman/VTMath-Calculator/blob/master/pics/still.png)
