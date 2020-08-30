@@ -2,7 +2,7 @@
 
 This project was done as an assignment for Virginia Tech ECE 3574 Applied Software Design. In order to avoid violating the honor code in case this assignment is reused, the full project will not be uploaded.
 
-VTMath is a calculator program that uses an interpreter called vtcalc to evaluate arithmetic expressions that are provided in postfix form. This means that the operators always appear after the operands (ie. 3 4 * would evaluate to 12). VTMath can be used either through terminal using vtmath or the GUI version using the Qt framework called vtqulator. In vtqulator mode, the calculator can evaluate arbitrarily large values that do not fit in the traditional 64 bit int. Each term of an expression is stored in a stack and evaluated from the top following an operator. Inputs can also be entered using the keyboard.
+VTMath is a calculator program that uses an interpreter called vtcalc to evaluate arithmetic expressions that are provided in postfix form. This means that the operators always appear after the operands (ie. 3 4 * would evaluate to 12). VTMath can be used either through terminal using vtmath or the GUI version called vtqulator. In vtqulator mode, the calculator can evaluate arbitrarily large values that do not fit in the traditional 64 bit int. Each term of an expression is stored in a stack and evaluated from the top following an operator. Inputs can also be entered using the keyboard. Uses Qt framework for the GUI and Catch for unit testing.
 
 ![Image of UML](https://github.com/hanipman/VTMath-Calculator/blob/master/pics/UML.PNG)
 
